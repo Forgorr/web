@@ -12,6 +12,8 @@ export default function App() {
           <Title>SolidStart - Basic</Title>
           <a href="/">Index</a>
           <a href="/about">About</a>
+          <a href="/login">Login</a>
+          <a href="/signup">SignUp</a>
           <Suspense>{props.children}</Suspense>
         </MetaProvider>
       )}
